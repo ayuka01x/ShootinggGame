@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Game\GameInfo\GameInfo.cpp">
+      <Filter>Game\GameInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Task\Task.cpp">
+      <Filter>System\Task</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\LevelBase.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\TitleLevel.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\LevelChanger.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Level\BattleLevel.cpp">
+      <Filter>Game\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="System\LogConsole.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Input\InputManager.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Task\TaskManager.cpp">
+      <Filter>System\Task\TaskManager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Task\BulletManager\BulletManager.cpp">
+      <Filter>System\Task\TaskManager\BulletManager</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Bullet\BulletBase.cpp">
+      <Filter>System\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Bullet\PlayerBullet.cpp">
+      <Filter>System\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ui\TitleUi\TitleUi.cpp">
+      <Filter>Game\Ui\TitleUi</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ui\BattleUi\BattleUi.cpp">
+      <Filter>Game\Ui\BattleUi</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Ui\SideUi\SideUi.cpp">
+      <Filter>Game\Ui\SideUi</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\FadeManager\FadeManager.cpp">
+      <Filter>Game\FadeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\EnemyManager\EnemyManager.cpp">
+      <Filter>Game\Enemy\EnemyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\EnemyBase\EnemyBase.cpp">
+      <Filter>Game\Enemy\EnemyBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\EnemyBase\TackleEnemy\TackleEnemy.cpp">
+      <Filter>Game\Enemy\EnemyBase\TackleEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\EnemyBase\BossEnemy\BossEnemy.cpp">
+      <Filter>Game\Enemy\EnemyBase\BossEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Bullet\BossBullet\BossBullet.cpp">
+      <Filter>System\Bullet\BossBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Effect\EffectBace\EffectBase.cpp">
+      <Filter>Game\Effect\EffectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Effect\EffectManager\EffectManager.cpp">
+      <Filter>Game\Effect\EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Effect\EffectBace\EnemyEffect\EnemyEffect.cpp">
+      <Filter>Game\Effect\EffectBase\EnemyEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Effect\EffectBace\PlayerEffect\PlayerEffect.cpp">
+      <Filter>Game\Effect\EffectBase\PlayerEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Effect\EffectBace\EnemyEffect\BossEffect\BossEffect.cpp">
+      <Filter>Game\Effect\EffectBase\EnemyEffect\BossEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameInfo\AudioManager\AudioManager.cpp">
+      <Filter>Game\GameInfo\AudioManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Enemy\EnemyBase\BossEnemy\MiniBoss.cpp">
+      <Filter>Game\Enemy\EnemyBase\BossEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Item\ItemManager\ItemManager.cpp">
+      <Filter>Game\Item\ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Item\ItemBase\ItemBase.cpp">
+      <Filter>Game\Item\ItemBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Item\ItemBase\SpeedUp\SpeedUp.cpp">
+      <Filter>Game\Item\ItemBase\SpeedUp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{8dfc85c6-bf19-465b-ba07-1b7c0ffa580c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameInfo">
+      <UniqueIdentifier>{bd218ce5-3679-4e78-b811-0cf63f42dbb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{aa3fdcdb-e696-4b65-a56f-3514884b4e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Task">
+      <UniqueIdentifier>{7c552f1b-793a-412e-a7fe-400982fce40b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Level">
+      <UniqueIdentifier>{250250dd-58b9-42ab-a2ec-a509ecf15f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{1635fd50-36fe-4dc2-a326-f2e8a7815483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Input">
+      <UniqueIdentifier>{49ec0d05-5af8-4b91-9dfe-7b78d57154c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Task\TaskManager">
+      <UniqueIdentifier>{8c7ab32b-c3ad-4a47-b5e9-085d777d8dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Task\TaskManager\BulletManager">
+      <UniqueIdentifier>{3fa7bf19-6a34-46ef-aed8-0be8b6bb9329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Bullet">
+      <UniqueIdentifier>{52d16a42-b50c-4e82-9adc-5c9728c08343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Ui">
+      <UniqueIdentifier>{c3f48d98-f2ff-493d-826c-8aceaaf71bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Ui\TitleUi">
+      <UniqueIdentifier>{370048c4-f687-4f00-afb8-d81c3a11e0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Ui\BattleUi">
+      <UniqueIdentifier>{1a47b338-5f25-44ee-8759-6afa99666b1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Ui\SideUi">
+      <UniqueIdentifier>{f4fc6a61-153d-4d8e-b940-84edeb3af9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\FadeManager">
+      <UniqueIdentifier>{0a408c3d-ed1b-478c-82ff-17b4c7a7339c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy">
+      <UniqueIdentifier>{0583b7a4-b7fa-4906-a005-0fa639b3c4da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\EnemyManager">
+      <UniqueIdentifier>{2bd21bb3-fa18-437f-a7ae-c6b719f71f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\EnemyBase">
+      <UniqueIdentifier>{c6f6e81c-d923-451e-a521-afc55734095f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\EnemyBase\TackleEnemy">
+      <UniqueIdentifier>{84cf2993-01e4-4e1a-b446-cdd9faf0ee3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\EnemyBase\BossEnemy">
+      <UniqueIdentifier>{1aa5671b-5586-42d7-b6c4-9dbe539ec1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Bullet\BossBullet">
+      <UniqueIdentifier>{b59bbfad-2678-47dc-9823-48c7d045e2d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect">
+      <UniqueIdentifier>{e5ca3235-15a4-47e4-acfb-5f6a2d61c9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\EffectManager">
+      <UniqueIdentifier>{cea1db78-5b48-41e3-b43a-38c7d6838451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\EffectBase">
+      <UniqueIdentifier>{4d177632-27e0-4bf8-b59b-9a10c01e6fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\EffectBase\PlayerEffect">
+      <UniqueIdentifier>{6cf378c6-4d35-4cd5-b9d9-2d10ab7c2265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\EffectBase\EnemyEffect">
+      <UniqueIdentifier>{797f0f19-7d70-4d66-bae0-d8337ef7849d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Effect\EffectBase\EnemyEffect\BossEffect">
+      <UniqueIdentifier>{eb8b7b02-2b08-49f9-8464-8c30c2d8cad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameInfo\AudioManager">
+      <UniqueIdentifier>{b66246c5-5edc-4479-a968-c40494535f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Item">
+      <UniqueIdentifier>{3c198b01-fd4e-4605-aff2-ce3a1048a96f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Item\ItemManager">
+      <UniqueIdentifier>{7fae08cc-eda0-4181-9f3b-063c82efbd52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Item\ItemBase">
+      <UniqueIdentifier>{23028d06-1d6d-4fdd-8c90-24fc8c42d9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Item\ItemBase\SpeedUp">
+      <UniqueIdentifier>{5129d7bd-76e6-424d-bdfb-325c55fbcef1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\GameInfo\GameInfo.h">
+      <Filter>Game\GameInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Task\Task.h">
+      <Filter>System\Task</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\LevelBase.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\TitleLevel.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\LevelChanger.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Level\BattleLevel.h">
+      <Filter>Game\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="System\LogConsole.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input\InputManager.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Task\TaskManager.h">
+      <Filter>System\Task\TaskManager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Task\BulletManager\BulletManager.h">
+      <Filter>System\Task\TaskManager\BulletManager</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Bullet\BulletBase.h">
+      <Filter>System\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Bullet\PlayerBullet.h">
+      <Filter>System\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ui\TitleUi\TitleUi.h">
+      <Filter>Game\Ui\TitleUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ui\BattleUi\BattleUi.h">
+      <Filter>Game\Ui\BattleUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Ui\SideUi\SideUi.h">
+      <Filter>Game\Ui\SideUi</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\FadeManager\FadeManager.h">
+      <Filter>Game\FadeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\EnemyManager\EnemyManager.h">
+      <Filter>Game\Enemy\EnemyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\EnemyBase\EnemyBase.h">
+      <Filter>Game\Enemy\EnemyBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\EnemyBase\TackleEnemy\TackleEnemy.h">
+      <Filter>Game\Enemy\EnemyBase\TackleEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\EnemyBase\BossEnemy\BossEnemy.h">
+      <Filter>Game\Enemy\EnemyBase\BossEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Bullet\BossBullet\BossBullet.h">
+      <Filter>System\Bullet\BossBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Effect\EffectBace\EffectBase.h">
+      <Filter>Game\Effect\EffectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Effect\EffectManager\EffectManager.h">
+      <Filter>Game\Effect\EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Effect\EffectBace\EnemyEffect\EnemyEffect.h">
+      <Filter>Game\Effect\EffectBase\EnemyEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Effect\EffectBace\PlayerEffect\PlayerEffect.h">
+      <Filter>Game\Effect\EffectBase\PlayerEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Effect\EffectBace\EnemyEffect\BossEffect\BossEffect.h">
+      <Filter>Game\Effect\EffectBase\EnemyEffect\BossEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameInfo\AudioManager\AudioManager.h">
+      <Filter>Game\GameInfo\AudioManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Enemy\EnemyBase\BossEnemy\MiniBoss.h">
+      <Filter>Game\Enemy\EnemyBase\BossEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Item\ItemManager\ItemManager.h">
+      <Filter>Game\Item\ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Item\ItemBase\ItemBase.h">
+      <Filter>Game\Item\ItemBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Item\ItemBase\SpeedUp\SpeedUp.h">
+      <Filter>Game\Item\ItemBase\SpeedUp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

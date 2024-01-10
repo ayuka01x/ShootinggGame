@@ -1,0 +1,22 @@
+﻿  BattleLevel.cpp
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Level\BattleLevel.cpp(506,62): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  LevelChanger.cpp
+  Player.cpp
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(153,33): warning C4244: '-=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(158,33): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(163,33): warning C4244: '-=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(168,33): warning C4244: '+=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(177,120): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(177,91): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(195,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(195,29): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(199,90): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(199,79): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(204,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(204,29): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(206,90): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(206,79): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(211,40): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\Shooting2D\Game\Player\Player.cpp(211,29): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  Shooting2D.vcxproj -> C:\study\studyspace000016day_ayuka_kinoshita\Shooting2D\x64\Debug\Shooting2D.exe
